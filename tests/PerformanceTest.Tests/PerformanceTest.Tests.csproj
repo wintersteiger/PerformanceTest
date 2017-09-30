@@ -43,10 +43,6 @@
       <HintPath>..\..\packages\Angara.Statistics.0.1.4\lib\net452\Angara.Statistics.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Angara.Table, Version=0.2.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Angara.Table.0.2.4\lib\net452\Angara.Table.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="DotNetZip, Version=1.10.1.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
       <HintPath>..\..\packages\DotNetZip.1.10.1\lib\net20\DotNetZip.dll</HintPath>
       <Private>True</Private>
@@ -96,6 +92,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Angara.Table\src\Angara.Table\Angara.Table.fsproj">
+      <Project>{8ad26cac-04b1-48f1-aa65-3ddb36b2976c}</Project>
+      <Name>Angara.Table</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\src\AzurePerformanceTest\AzurePerformanceTestCommons\AzurePerformanceTestCommons.csproj">
       <Project>{212C3662-8342-43D1-AC51-36AB067B13D7}</Project>
       <Name>AzurePerformanceTestCommons</Name>

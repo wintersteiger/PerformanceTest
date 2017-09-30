@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26923.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTest", "src\PerformanceTest\PerformanceTest.csproj", "{86056F9D-4F4E-492B-BBC2-7A176043E42C}"
 EndProject
@@ -46,6 +46,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Summary", "src\Summary\Summary.csproj", "{12135DAD-FAA7-4E97-B831-C9D55295151F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NightlyWebApp", "src\NightlyWebApp\NightlyWebApp.csproj", "{A6EBDABB-EDE3-4B6E-9EFC-3A71F817E4CA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Angara.Table", "..\Angara.Table\src\Angara.Table\Angara.Table.fsproj", "{8AD26CAC-04B1-48F1-AA65-3DDB36B2976C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,10 @@ Global
 		{A6EBDABB-EDE3-4B6E-9EFC-3A71F817E4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6EBDABB-EDE3-4B6E-9EFC-3A71F817E4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6EBDABB-EDE3-4B6E-9EFC-3A71F817E4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD26CAC-04B1-48F1-AA65-3DDB36B2976C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD26CAC-04B1-48F1-AA65-3DDB36B2976C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD26CAC-04B1-48F1-AA65-3DDB36B2976C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD26CAC-04B1-48F1-AA65-3DDB36B2976C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

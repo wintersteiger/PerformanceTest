@@ -12,7 +12,7 @@ namespace Nightly.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.3.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -43,24 +43,6 @@ namespace Nightly.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("c5bf488e-67df-43f4-abed-e1da8c223f6c")]
-        public string AADApplicationId {
-            get {
-                return ((string)(this["AADApplicationId"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("918244F81DD3F4BB838E47A8288DBF91ABF5F9C9")]
-        public string AADApplicationCertThumbprint {
-            get {
-                return ((string)(this["AADApplicationCertThumbprint"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("https://cz3.vault.azure.net/")]
         public string KeyVaultUrl {
             get {
@@ -83,6 +65,33 @@ namespace Nightly.Properties {
         public string SummaryName {
             get {
                 return ((string)(this["SummaryName"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("895a5b60-9798-4f21-9b8c-88f2278ebf68")]
+        public string AADApplicationId {
+            get {
+                return ((string)(this["AADApplicationId"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("2EAFE8E09FD3B416C68F4A375AC88FE06F05D0F8")]
+        public string AADApplicationCertThumbprint {
+            get {
+                return ((string)(this["AADApplicationCertThumbprint"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Setting {
+            get {
+                return ((string)(this["Setting"]));
             }
         }
     }

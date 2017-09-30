@@ -317,6 +317,7 @@
     <Compile Include="compare.aspx.designer.cs">
       <DependentUpon>compare.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Settings.cs" />
     <Compile Include="ViewModel\ComparableExperimentViewModel.cs" />
     <Compile Include="ViewModel\Comparison.cs" />
     <Compile Include="Default.aspx.cs">
